@@ -1,0 +1,50 @@
+[
+  {
+    "id": "GERVSNED",
+    "state": "started",
+    "teamInfo": [
+      {
+        "location": "home",
+        "country": "germany",
+        "goalsScored": 0
+      },
+      {
+        "location": "away",
+        "country": "nederlands",
+        "goalsScored": 0
+      }
+    ]
+  },
+  {
+    "id": "ENGVSPOR",
+    "state": "started",
+    "teamInfo": [
+      {
+        "location": "home",
+        "country": "england",
+        "goalsScored": 0
+      },
+      {
+        "location": "away",
+        "country": "portugal",
+        "goalsScored": 0
+      }
+    ]
+  },
+  {
+    "id": "BELVSCRO",
+    "state": "started",
+    "teamInfo": [
+      {
+        "location": "home",
+        "country": "belgium",
+        "goalsScored": 0
+      },
+      {
+        "location": "away",
+        "country": "croatia",
+        "goalsScored": 0
+      }
+    ]
+  }
+]
