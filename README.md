@@ -38,6 +38,13 @@ On a windows machine, cmd into source directory ../InstApp and run the following
 
 Application will run by default on port 8060
 
-Todo
+Solution description
 ====
-1. Format result as per expectations 
+1. Input is data json consists of matches that have started or currently running. It can also be 
+   updated when application is running.
+2. Match poller runs every second which updates score constantly. There are 2 service methods which 
+   manages matches and gets summary as per assignment objective.
+3. Result format is now petty print of set of matches i.e.,
+   `[[TeamInfo(location=home, country=belgium, goalsScored=0), TeamInfo(location=away, country=croatia, goalsScored=0)], 
+   [TeamInfo(location=away, country=portugal, goalsScored=0), TeamInfo(location=home, country=england, goalsScored=0)], 
+   [TeamInfo(location=home, country=germany, goalsScored=0), TeamInfo(location=away, country=nederlands, goalsScored=0)]]`
